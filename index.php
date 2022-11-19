@@ -18,8 +18,8 @@
         </header>
 
         <nav class="nav">
-                <a href="login.php" class="cabecalho-item">Login</a>
-                <a href="cadastro.php" class="cabecalho-item">Cadastro</a>
+                <a href="telas/login.php" class="cabecalho-item">Login</a>
+                <a href="telas/cadastro.php" class="cabecalho-item">Cadastro</a>
             </nav>
 
         </div>         

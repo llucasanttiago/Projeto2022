@@ -25,7 +25,7 @@
          //print_r('<br>');
          //print_r('Cidade: ' . $_POST['cidade']);
 
-        include_once('config.php');
+        include_once('../config/conexao.php');
 
        $nome = $_POST['nome'];
        $email = $_POST['email'];
@@ -60,15 +60,15 @@
         <form action="cadastro.php" method="POST">
             <fieldset>
                 <div class="textfield">
-                    <input type="text" name="nome" id="nome" placeholder="Nome"  >
+                    <input type="text" name="nome" id="nome" placeholder="Nome"  required>
                 </div>
 
                 <div class="textfield">
-                    <input type="text" name="email" id="email" placeholder="Email">
+                    <input type="text" name="email" id="email" placeholder="Email" required>
                 </div>
 
                 <div class="textfield">
-                    <input type="password" name="senha" id="senha" placeholder="Senha">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required>
                 </div>
 
                 <p>Sexo:</p>
@@ -87,7 +87,7 @@
                 <br><br><br>
 
                 <div class="textfield">
-                    <input type="text" name="cpf" id="cpf" placeholder="Cpf"  >
+                    <input type="text" name="cpf" id="cpf" placeholder="Cpf"  required>
                 </div>
 
                 <div class="textfield">
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="textfield">
-                    <input type="text" name="endereco" id="endereco" placeholder="Endereço"  >
+                    <input type="text" name="endereco" id="endereco" placeholder="Endereço"  required>
                 </div>
 
                 <div class="textfield">
@@ -110,8 +110,9 @@
                     <input type="text" name="cidade" id="cidade" placeholder="Cidade"  >
                 
                 
-                    <input type="submit" name="submit" id="submit">
+                <input type="submit" name="submit" id="submit">
                 
+                <a href="../index.php" class="cabecalho-item"><h1>Voltar</h1></a>
             </fieldset>
         </form>
     </div>
