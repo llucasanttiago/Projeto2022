@@ -57,7 +57,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="cadastro.php" method="POST">
+        <form action="cadastroLogin.php" method="POST">
             <fieldset>
                 <div class="textfield">
                     <input type="text" name="nome" id="nome" placeholder="Nome"  required>

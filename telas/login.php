@@ -24,7 +24,7 @@
             <input type="submit" name="submit" value="Enviar">
             
         </form>
-        <a href="cadastro.php"><button class="btn-login">Cadastrar</button></a>
+        <a href="cadastroLogin.php"><button class="btn-login">Cadastrar</button></a>
     </main>
 </body>
 </html>

@@ -21,8 +21,26 @@
         echo "<h2>Bem vindo <i>$logado</i><h2>";
     ?>
     <div class="sair">
-        <a href="../config/deslogar.php">Sair</a>
+        <a href="../config/deslogar.php">Sair</a><br><br>
     </div>
 
+    <section>
+        <div class="pesquisar-produto">
+            <a href="consultar.php">Consultar</a>
+        </div>
+
+        <div class="cadastro-produto">
+            <a href="cadastroProdutos.php">Cadastrar Produtos</a>
+        </div>
+
+        <div class="alterar-produto">
+            <a href="alterar.php">Alterar</a>
+        </div>
+
+        <div class="deletar-produto">
+            <a href="deletar.php">Deletar</a>
+        </div>
+    </section>
+    
 </body>
 </html>
